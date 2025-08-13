@@ -32,7 +32,7 @@ do
 
 
     Tabs.Main:AddParagraph({
-        Title = "Beta Testing Phase",
+        Title = "Logged in as "..Player.name.." ",
         Content = "Note that this script is still in the beta testing phase!\nThere might be bugs!"
     })
 
