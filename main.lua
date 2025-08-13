@@ -31,8 +31,8 @@ do
 
 
     Tabs.Main:AddParagraph({
-        Title = "Paragraph",
-        Content = "This is a paragraph.\nSecond line!"
+        Title = "Beta Testing Phase",
+        Content = "Note that this script is still in the beta testing phase!\nThere might be bugs!"
     })
 
 
