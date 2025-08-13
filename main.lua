@@ -24,7 +24,7 @@ local Options = Fluent.Options
 do
     Fluent:Notify({
         Title = "Logged In!",
-        Content = "Logged in as "..Player.name.." ",
+        Content = "Logged in as "..Player.display.." ",
         SubContent = "", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
     })
