@@ -1,6 +1,7 @@
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+local Player = game.Players.LocalPlayer
 
 local Window = Fluent:CreateWindow({
     Title = "Grave HUB ",
@@ -22,8 +23,8 @@ local Options = Fluent.Options
 
 do
     Fluent:Notify({
-        Title = "Notification",
-        Content = "Key Is for 24hrs only",
+        Title = "Logged in as "..Player.name.." ",
+        Content = "",
         SubContent = "If you are using the free version", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
     })
