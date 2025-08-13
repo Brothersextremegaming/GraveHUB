@@ -23,16 +23,16 @@ local Options = Fluent.Options
 
 do
     Fluent:Notify({
-        Title = "Logged in as "..Player.name.." ",
-        Content = "",
-        SubContent = "If you are using the free version", -- Optional
+        Title = "Logged In!",
+        Content = "Logged in as "..Player.name.." ",
+        SubContent = "", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
     })
 
 
 
     Tabs.Main:AddParagraph({
-        Title = "Logged in as "..Player.name.." ",
+        Title = "Beta Testing!",
         Content = "Note that this script is still in the beta testing phase!\nThere might be bugs!"
     })
 
